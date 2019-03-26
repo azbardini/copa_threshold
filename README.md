@@ -20,6 +20,10 @@ threshold = 10
 **containerName** é o nome do container a ser migrado na rede.  
 **treshold** é o limite em MB de throughput da rede em que, ao ser batido, inicia o processo de migração.  
 
-Em seguida, rode o algoritmo (python3 treshold.py) em um n que tenha acesso á URL do Copa Server.  
+Em seguida, rode o algoritmo em um n que tenha acesso á URL do Copa Server:  
+
+```
+python3 treshold.py
+```
 
 O algoritmo deve exibir sua execução a cada 5 segundos, e alertar em logs quando a migração ocorrer.  
